@@ -10,13 +10,13 @@ let currentID = 1;
 async function start() {
   const result = [];
   const startCodeElement = 100;
-  const endCodeElement = 200;
+  const endCodeElement = 120;
   const delayTime = 4200;
 
   for (let i = startCodeElement; i < endCodeElement; i++) {
     const link = `${BASE_LINK}${i}`
     sleep(delayTime);
-    console.log('request to: ', link)
+    console.log('\nrequest to: ', link)
 
     const item = await request(link, i);
     result.push(item);
@@ -33,10 +33,17 @@ async function request(link, element) {
 
       return processing(page, element);
     }).catch((e) => {
-      console.log('error', e)
+      console.log('error: ', e.code)
+
       return {
+        id: currentID,
         element: element,
         code: `e${element}`,
+        name: null,
+        nameEng: null,
+        description: null,
+        risk: null,
+        categories: null,
       }
     });
 }

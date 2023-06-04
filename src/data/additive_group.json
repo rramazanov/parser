@@ -1,1 +1,42 @@
-[{"id":1,"additive_id":1,"group_id":10},{"id":1,"additive_id":2,"group_id":10},{"id":1,"additive_id":3,"group_id":10},{"id":1,"additive_id":4,"group_id":10},{"id":1,"additive_id":5,"group_id":10},{"id":1,"additive_id":6,"group_id":10},{"id":1,"additive_id":7,"group_id":10},{"id":1,"additive_id":8,"group_id":10},{"id":1,"additive_id":11,"group_id":10},{"id":1,"additive_id":12,"group_id":10},{"id":1,"additive_id":21,"group_id":10},{"id":1,"additive_id":22,"group_id":10},{"id":1,"additive_id":23,"group_id":10},{"id":1,"additive_id":24,"group_id":10},{"id":1,"additive_id":25,"group_id":10},{"id":1,"additive_id":26,"group_id":10},{"id":1,"additive_id":27,"group_id":10},{"id":1,"additive_id":28,"group_id":10},{"id":1,"additive_id":29,"group_id":10},{"id":1,"additive_id":30,"group_id":10},{"id":1,"additive_id":31,"group_id":10},{"id":1,"additive_id":32,"group_id":10},{"id":1,"additive_id":33,"group_id":10},{"id":1,"additive_id":34,"group_id":10},{"id":1,"additive_id":35,"group_id":10},{"id":1,"additive_id":41,"group_id":10},{"id":1,"additive_id":42,"group_id":10},{"id":1,"additive_id":43,"group_id":10},{"id":1,"additive_id":44,"group_id":10},{"id":1,"additive_id":52,"group_id":10},{"id":1,"additive_id":53,"group_id":10},{"id":1,"additive_id":54,"group_id":10},{"id":1,"additive_id":55,"group_id":10},{"id":1,"additive_id":61,"group_id":10},{"id":1,"additive_id":63,"group_id":10},{"id":1,"additive_id":64,"group_id":10},{"id":1,"additive_id":65,"group_id":10},{"id":1,"additive_id":67,"group_id":10},{"id":1,"additive_id":71,"group_id":10},{"id":2,"additive_id":71,"group_id":19},{"id":3,"additive_id":71,"group_id":17},{"id":1,"additive_id":73,"group_id":10},{"id":1,"additive_id":74,"group_id":10},{"id":1,"additive_id":75,"group_id":10},{"id":1,"additive_id":76,"group_id":10},{"id":1,"additive_id":82,"group_id":10}]
+[
+  {
+    "additive_id": 1,
+    "group_id": 10
+  },
+  {
+    "additive_id": 2,
+    "group_id": 10
+  },
+  {
+    "additive_id": 3,
+    "group_id": 10
+  },
+  {
+    "additive_id": 4,
+    "group_id": 10
+  },
+  {
+    "additive_id": 5,
+    "group_id": 10
+  },
+  {
+    "additive_id": 6,
+    "group_id": 10
+  },
+  {
+    "additive_id": 7,
+    "group_id": 10
+  },
+  {
+    "additive_id": 8,
+    "group_id": 10
+  },
+  {
+    "additive_id": 11,
+    "group_id": 10
+  },
+  {
+    "additive_id": 12,
+    "group_id": 10
+  }
+]

@@ -7,8 +7,8 @@ async function start() {
     code: item.code,
     name: item.name || null,
     name_eng: item.nameEng || null,
-    risk: item.risk || null,
     description: item.description || 'Не назначен',
+    risk: item.risk || null,
   }))
 
   fs.writeFileSync('./src/data/additives.json', JSON.stringify(additive));

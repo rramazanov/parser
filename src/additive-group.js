@@ -5,6 +5,8 @@ const {GROUPS} = require('./utils/groups');
 function start() {
   const additive_group = [];
 
+  let count = 1;
+
   for(const value of parsedData) {
     const groups = value.categories?.split(',').map((group) => group.trim()) || null;
 
@@ -16,10 +18,12 @@ function start() {
       if(!groupCategory) continue;
 
       additive_group.push({
-        id: i + 1,
+        //id: count,
         additive_id: value.id,
         group_id: groupCategory.id,
       })
+
+      count++;
     }
   }
 
